@@ -1,0 +1,16 @@
+GET http://localhost:3000/events
+
+###
+GET http://localhost:3000/events/1
+
+###
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{ 
+    "id": 1, 
+    "name": "Buenas", 
+    "description": "Buenas", 
+    "when": "2022-08-20", 
+    "address": "Buenas" 
+}
